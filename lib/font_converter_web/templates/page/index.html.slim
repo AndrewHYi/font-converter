@@ -1,0 +1,10 @@
+.jumbotron
+  h5 Convert otf/ttf font files to [ttf, eot, woff, woff2, svg]
+  p (WIP!)
+
+.row
+= form_for @conn, page_path(@conn, :convert), [as: :convert, multipart: true], fn f ->
+  = file_input f, :fontfile, accept: ".ttf, .otf"
+  = submit "Search"
+
+.col-lg-6
