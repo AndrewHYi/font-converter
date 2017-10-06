@@ -1,4 +1,6 @@
-# FontConverter
+## FontConverter
+
+### Test app for playing around with Phoenix/Elixir and converting fonts (Using the `System` module and FontForge)
 
 To start your Phoenix server:
 
